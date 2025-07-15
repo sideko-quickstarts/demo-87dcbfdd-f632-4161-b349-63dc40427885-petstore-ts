@@ -1,0 +1,14 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": [
+    "/dist/"
+  ],
+  "moduleNameMapper": {
+    "^demo_api_40_ts$": "<rootDir>/src/index.ts",
+    "^demo_api_40_ts/(.*)$": "<rootDir>/src/$1"
+  },
+  "setupFilesAfterEnv": [
+    "./jest.setup.js"
+  ]
+}
